@@ -15,16 +15,6 @@ from PIL import Image
 import pytesseract
 from wand.image import Image as wi
 
-
-
-
-
-
-
-
-
-
-
 def convert(fname, pages=None,encoding='utf-8'):
     if not pages:
         pagenums = set()
@@ -68,22 +58,5 @@ def convert(fname, pages=None,encoding='utf-8'):
             z.write(text2)
             return text2
 
-00a15acb-1374-4949-9d78-a1442ce4c200
-00a11b20-bd3c-48f4-becb-5c7ecb6885f9
-convert(r'D:\files\0f6aecc5-378d-4028-82d7-a1996ceeed24.pdf')            
-    	
-s='uday khanna'
-v=s[0:-1]        
-                
 
 
-
-def sum(a,b):
-    c=a+b
-    print(c)
-    return c
-
-
-sum(5,3)
-
-f=sum(5,3)
