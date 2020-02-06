@@ -5,7 +5,7 @@ Problem Faced: Differintiate between image based pdfs and native pdfs and extrac
 
 Solution:
 
-• This problem was encountered by various colleagues in the organization for selected document types.
+• This problem was encountered by various colleagues in the organization for selected document types and was also essential to be solved as extraction of certain attributes had to be done post that
 
 • On the basis of data exploration i observed a pdf document needs to be OCR-d when it has:- 
   1) No text at all
